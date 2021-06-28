@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='chat.css'>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <main id="main">
+        <div class="chat-box-container">
+          <div class="header-row">
+            <img src="fts.jpg" alt="logo" height="100px" width="100px">
+            <h1 class="chat-box-header">CHAT BOT</h1>
+          </div>
+            <div class="chat-box" id="chatbox">
+			<h5 id="chat-timestamp"></h5>
+              <div class="send-message" id="botStarterMessage"></div><br>
+              <div class="incoming-message"></div>
+             </div>
+        </div>
+
+        <div class="chat-input-container">
+		    <div id="userInput">
+				<input class="chat-input" id="textInput" type="text" name="chat-input" style="font-family: caveat;" value="" placeholder="Enter your text here...">
+				 <p></p>
+            </div>
+		     <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                    onclick="heartButton()"></i>
+          <button class="chat-submit" type="button" name="submit" onclick="sendButton()">Submit</button>
+		  <div id="chat-bar-bottom">
+                            <p class="incoming-message"></p>
+                        </div>
+
+        </div>
+      </main>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="scripts/responses.js"></script>
+<script src="scripts/chat.js"></script>
+</html> 
