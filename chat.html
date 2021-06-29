@@ -19,25 +19,23 @@
             <h1 class="chat-box-header">CHAT BOT</h1>
           </div>
             <div class="chat-box" id="chatbox">
-			<h5 id="chat-timestamp"></h5>
+			        <h6 style="text-align: center; font-size: large;" id="chat-timestamp"></h6>
               <div class="send-message" id="botStarterMessage"></div><br>
-              <div class="incoming-message"></div>
-             </div>
+              <div class="incoming-message">Write Your Message Here</div>
+            </div>
         </div>
 
         <div class="chat-input-container">
-		    <div id="userInput">
-				<input class="chat-input" id="textInput" type="text" name="chat-input" style="font-family: caveat;" value="" placeholder="Enter your text here...">
-				 <p></p>
-            </div>
-		     <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
-                                    onclick="heartButton()"></i>
+          <div id="userInput">
+            <input class="chat-input" id="textInput" type="text" name="chat-input" style="font-family: caveat;" value="" placeholder="Enter your text here...">
+            <p></p>
+          </div>   <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart" onclick="heartButton()"></i>
           <button class="chat-submit" type="button" name="submit" onclick="sendButton()">Submit</button>
-		  <div id="chat-bar-bottom">
-                           
-                        </div>
-
+          <div id="chat-bar-bottom">
+            
+          </div>
         </div>
+
       </main>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

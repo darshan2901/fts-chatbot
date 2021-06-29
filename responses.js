@@ -1,11 +1,11 @@
 function getBotResponse(input) {
     //rock paper scissors
-    if (input == "rock") {
-        return "paper";
-    } else if (input == "paper") {
-        return "scissors";
-    } else if (input == "scissors") {
-        return "rock";
+    if (input == "hey") {
+        return "How can I help you";
+    } else if (input == "hello") {
+        return "How can I help you";
+    } else if (input == "good Morning") {
+        return "rHow can I help you";
     }
 
     // Simple responses
